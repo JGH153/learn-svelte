@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 
-interface Todo {
+export interface Todo {
 	id: symbol;
 	title: string;
 	completed: boolean;
